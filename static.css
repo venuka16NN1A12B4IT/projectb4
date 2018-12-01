@@ -1,0 +1,119 @@
+body{
+  background: lightgreen;
+}
+.maindiv{
+  background: aqua;
+  margin: 3%;
+  border-radius: 5%;
+  display:flex;
+}
+.leftdiv{
+  background: red;
+  margin: 3%;
+  border-radius: 3%;
+  box-shadow: 3px 3px 3px 3px;
+  text-align: center;
+  height:500px;
+  width:200px;
+  position: fixed;
+  width:35%;
+  margin-left:3%;
+  width: 25%;
+}
+.rightdiv{
+  background: pink;
+  margin: 3%;
+  border-radius: 3%;
+  box-shadow: 3px 3px 3px 3px;
+  padding: 1%;
+  width: 750px;
+  margin-left: 32%;
+  width: 65%;
+}
+img{
+  margin:3%;
+  height:40%;
+  width:80%;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  body{
+    background:white;
+  }
+  .maindiv{
+    background: pink;
+    margin: 3%;
+    border-radius: 5%;
+    display:inline-block;
+
+  }
+  .leftdiv{
+    background: green;
+    margin: 3%;
+    border-radius: 3%;
+    box-shadow: 3px 3px 3px 3px;
+    text-align: center;
+    height:400px;
+    width:350px;
+    width:85%;
+    margin-bottom: 3%;
+
+  }
+  .rightdiv{
+    background: yellow;
+    margin: 3%;
+    border-radius: 3%;
+    box-shadow: 3px 3px 3px 3px;
+    padding: 1%;
+    width: 750px;
+    margin-top: 135%;
+    height: 550px;
+    width: 95%;
+  }
+  img{
+    margin:3%;
+    height:40%;
+    width:80%;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  body{
+    background:blue;
+  }
+  .maindiv{
+    background: red;
+    margin: 3%;
+    border-radius: 5%;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .leftdiv{
+    background: pink;
+    margin: 3%;
+    border-radius: 3%;
+    box-shadow: 3px 3px 3px 3px;
+    text-align: center;
+    height:400px;
+    width:350px;
+    width:25%;
+    margin-left: 0%;
+    position: fixed;
+
+  }
+  .rightdiv{
+    background: green;
+    margin: 3%;
+    border-radius: 2%;
+    box-shadow: 3px 3px 3px 3px;
+    padding: 1%;
+    width: 750px;
+    margin-left: 250px;
+    height: 1000px;
+    width: 85%;
+  }
+  img{
+    margin:3%;
+    height:40%;
+    width:80%;
+   }
+ }
